@@ -63,6 +63,14 @@ agents/
   scrum-master.agent.md
 ```
 
+## Branch Stability
+
+Branch stability order from most stable to least stable:
+
+1. `stable`
+2. `published`
+3. `curated`
+
 ## How To Use
 
 Use these agents when you want Copilot to operate with a more specialized role and response contract than the default general-purpose assistant.
