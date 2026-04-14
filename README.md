@@ -29,7 +29,7 @@ This pack currently includes agents in four broad groups:
 | `java-test-writer` | Java testing | JUnit 5, Mockito, Spring slice and integration tests |
 | `agile-sprint-planner` | Sprint decomposition | Breaking initiatives into sprint-sized stories, tasks, and risk-aware plans |
 | `scrum-master` | Delivery orchestration | Sprint planning, backlog refinement, sequencing, blockers, re-planning |
-| `azure-ms-engineer` | Placeholder | Present as an empty file today; no prompt content is defined yet |
+| `azure-ms-engineer` | Azure engineering | Azure infrastructure, deployment workflows, diagnostics, security, reliability, and cost-aware cloud changes |
 
 ## Design Principles
 
@@ -93,10 +93,6 @@ Each `.agent.md` file typically includes these frontmatter fields:
 
 After the frontmatter, the body defines the agent's operating rules and expected output.
 
-## Current Gaps
-
-`azure-ms-engineer.agent.md` exists but is currently empty. If Azure delivery or cloud architecture support is intended for this pack, that file still needs a full prompt definition.
-
 ## Extending The Pack
 
 When adding a new agent, keep the existing conventions unless there is a good reason to diverge:
@@ -109,4 +105,4 @@ When adding a new agent, keep the existing conventions unless there is a good re
 
 ## Recommended Next Step
 
-If this repository is going to be published, the highest-value follow-up is to either implement `azure-ms-engineer.agent.md` or remove it until it has real content, so the repo presents a complete and accurate catalog.
+If this repository is going to be published, the next highest-value improvement is to add one or two concrete usage examples per agent so new users can pick the right specialist faster.
