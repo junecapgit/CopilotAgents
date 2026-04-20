@@ -1,0 +1,14 @@
+# PowerShell scripts
+*.ps1
+*.ps2
+*.psd1
+*.psm1
+*.ps1xml
+
+# PowerShell execution history
+.PSScriptPath
+PSHistory.txt
+
+# PowerShell profiles and cache
+profile.ps1
+*.psprofile
