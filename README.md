@@ -6,12 +6,13 @@ The agents are written as `.agent.md` files with frontmatter that defines the ag
 
 ## What Is Included
 
-This pack currently includes agents in four broad groups:
+This pack currently includes agents in five broad groups:
 
 - Generic engineering agents for cross-stack implementation and architecture work
 - C# agents for review, implementation, architecture, and test writing
 - Java agents for review, implementation, architecture, and test writing
 - Delivery planning agents for sprint decomposition and Scrum execution
+- Workflow and remediation agents for orchestration, incident recovery, and debt reduction
 
 ## Agent Catalog
 
@@ -30,6 +31,9 @@ This pack currently includes agents in four broad groups:
 | `agile-sprint-planner` | Sprint decomposition | Breaking initiatives into sprint-sized stories, tasks, and risk-aware plans |
 | `scrum-master` | Delivery orchestration | Sprint planning, backlog refinement, sequencing, blockers, re-planning |
 | `azure-ms-engineer` | Azure engineering | Azure infrastructure, deployment workflows, diagnostics, security, reliability, and cost-aware cloud changes |
+| `system-remediation` | Application remediation | Incident triage, root-cause analysis, containment, corrective fixes, and recovery validation |
+| `technical-debt` | Debt reduction | Debt hotspot identification, remediation planning, incremental refactors, and validation |
+| `workflow` | Workflow orchestration | End-to-end planning, specialist coordination, phased execution, and validation tracking |
 
 ## Design Principles
 
@@ -49,6 +53,7 @@ That consistency is intentional. It makes the agents easier to compose, easier t
 ```text
 agents/
   agile-sprint-planner.agent.md
+  application-remediation.agent.md
   azure-ms-engineer.agent.md
   csharp-code-review.agent.md
   csharp-senior-software-architect.agent.md
@@ -61,6 +66,8 @@ agents/
   java-sr-software-engineer.agent.md
   java-test-writer.agent.md
   scrum-master.agent.md
+  technical-debt.agent.md
+  workflow.agent.md
 ```
 
 ## Branch Stability
